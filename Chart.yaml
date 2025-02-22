@@ -1,0 +1,10 @@
+apiVersion: v2
+name: crossplane-deomain-deployment
+description: A Helm chart with to deploy crossplane
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+dependencies:
+  - name: crossplane
+    version: v1.19.0
+    repository: https://charts.crossplane.io/stable
